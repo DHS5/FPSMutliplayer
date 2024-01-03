@@ -1,9 +1,10 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 
-#include "TP_WeaponComponent.h"
-#include "FPSMutli2Character.h"
-#include "FPSMutli2Projectile.h"
+#include "FPSMutli2/Public/Weapon/TP_WeaponComponent.h"
+
+#include "FPSMutli2/Public/Character/FPSMutli2Character.h"
+#include "FPSMutli2/Public/Weapon/FPSMutli2Projectile.h"
 #include "GameFramework/PlayerController.h"
 #include "Camera/PlayerCameraManager.h"
 #include "Kismet/GameplayStatics.h"

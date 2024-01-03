@@ -1,7 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "FPSMutli2GameMode.h"
-#include "FPSMutli2Character.h"
+#include "FPSMutli2/Public/GameMode/FPSMutli2GameMode.h"
 #include "UObject/ConstructorHelpers.h"
 
 AFPSMutli2GameMode::AFPSMutli2GameMode()
