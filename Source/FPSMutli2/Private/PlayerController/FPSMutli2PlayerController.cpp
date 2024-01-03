@@ -1,7 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 
-#include "FPSMutli2PlayerController.h"
+#include "FPSMutli2/Public/PlayerController/FPSMutli2PlayerController.h"
+
 #include "EnhancedInputSubsystems.h"
 
 void AFPSMutli2PlayerController::BeginPlay()

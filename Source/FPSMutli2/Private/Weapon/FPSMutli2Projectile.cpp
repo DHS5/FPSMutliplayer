@@ -1,6 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "FPSMutli2Projectile.h"
+#include "FPSMutli2/Public/Weapon/FPSMutli2Projectile.h"
+
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/SphereComponent.h"
 
