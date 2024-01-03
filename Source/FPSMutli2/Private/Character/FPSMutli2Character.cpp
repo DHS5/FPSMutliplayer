@@ -2,7 +2,6 @@
 
 #include "FPSMutli2/Public/Character/FPSMutli2Character.h"
 
-#include "FPSMutli2/Public/Weapon/FPSMutli2Projectile.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
