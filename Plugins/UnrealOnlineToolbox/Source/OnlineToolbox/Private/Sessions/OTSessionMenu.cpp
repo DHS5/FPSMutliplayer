@@ -20,7 +20,7 @@ void UOTSessionMenu::MenuSetup(const bool ShouldAddToViewport,const bool ShouldB
 	{
 		SetVisibility(ESlateVisibility::Hidden);
 	}
-	bIsFocusable = true;
+	SetIsFocusable(true);
 
 
 	if(UWorld* World = GetWorld())
