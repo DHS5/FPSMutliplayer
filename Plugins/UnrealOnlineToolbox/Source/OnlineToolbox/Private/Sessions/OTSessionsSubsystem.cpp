@@ -78,7 +78,7 @@ void UOTSessionsSubsystem::CreateSession(int32 NumConnections, const FString& Ma
 	const ULocalPlayer* LocalPLayer = GetWorld()->GetFirstLocalPlayerFromController();
 	
 	//Create the session
-	const bool success = SessionInterface->CreateSession(*LocalPLayer->GetPreferredUniqueNetId(), NAME_GameSession, *LastSessionSettings);
+	const bool success = SessionInterface->CreateSession(*LocalPLayer->GetPreferredUniqueNetId(), NAME_GameSession, *LastSessionSettings); // todo fix crash
 	if(!success)
 	{
 		//We failed to create the session simply remove the delegate for completion
